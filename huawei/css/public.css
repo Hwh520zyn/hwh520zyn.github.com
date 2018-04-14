@@ -1,0 +1,65 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { 
+	margin:0; padding:0;
+}
+fieldset, img { 
+	border:none; 
+}
+
+img{
+	display: block;
+	border:none;
+}
+
+address, caption, cite, code, dfn, th, var {
+	font-style:normal; 
+	font-weight:normal;
+}
+ul, ol ,li{ 
+	list-style:none;
+} 
+body { 
+	font:12px/20px "微软雅黑","宋体","Arial Narrow",HELVETICA;
+	background:#fff;
+	position: relative;
+}
+a { 
+	text-decoration:none;
+}
+input{
+	outline: 0;
+}
+b,em{
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.fl{
+	float: left;
+	display: inline;
+}
+.fr{
+	float: right;
+	display: inline;
+}
